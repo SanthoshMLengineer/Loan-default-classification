@@ -1,0 +1,161 @@
+/* Body https://wallpaperaccess.com/full/3701981.jpg,*/
+body { 
+  background-color: #1e012c;
+}
+
+#title {
+  color: white;
+  font-size: 28px;
+  margin-left: 36%;
+}
+
+
+#formregion {
+  width: 40%;
+}
+
+#label{
+  color: white;
+  display: block;
+}
+
+#label_gender{
+  color: white;
+  display: block;
+  margin-left: 64%;
+}
+
+#Gender{
+  width: 51%;
+  height: 46px;
+  margin-left: 50%;
+}
+
+#label_married{
+  color: white;
+  display: block;
+  margin-left: 150%;
+  margin-top: -17%;
+}
+
+#Married{
+  width: 51%;
+  height: 46px;
+  margin-left: 130%;
+}
+
+#label_dependents{
+  color: white;
+  display: block;
+  margin-left: 64%;
+}
+
+#Dependents {
+  width: 51%;
+  height: 46px;
+  margin-left: 50%;
+}
+
+#label_education{
+  color: white;
+  display: block;
+  margin-left: 150%;
+  margin-top: -17%;
+}
+
+#Education {
+  width: 51%;
+  height: 46px;
+  margin-left: 130%;
+}
+
+#label_self_employed{
+  color: white;
+  display: block;
+  margin-left: 64%;
+}
+
+#Self_Employed {
+  width: 51%;
+  height: 46px;
+  margin-left: 50%;
+}
+
+#label_property_area{
+  color: white;
+  display: block;
+  margin-left: 150%;
+  margin-top: -17%;
+}
+
+#Property_Area {
+  width: 51%;
+  height: 46px;
+  margin-left: 130%;
+}
+
+#label_credit_history{
+  color: white;
+  display: block;
+  margin-left: 64%;
+}
+
+#Credit_History {
+  width: 51%;
+  height: 46px;
+  margin-left: 50%;
+}
+
+#label_total_income{
+  color: white;
+  display: block;
+  margin-left: 150%;
+  margin-top: -17%;
+}
+
+#Total_Income {
+  width: 51%;
+  height: 46px;
+  margin-left: 130%;
+}
+
+#label_loanamount{
+  color: white;
+  display: block;
+  margin-left: 64%;
+}
+
+#LoanAmount {
+  width: 51%;
+  height: 46px;
+  margin-left: 50%;
+}
+
+#label_loanamount_term{
+  color: white;
+  display: block;
+  margin-left: 150%;
+  margin-top: -17%;
+}
+
+#Loan_Amount_Term {
+  width: 51%;
+  height: 46px;
+  margin-left: 130%;
+}
+
+input[type=text]{
+  height: 40px;
+  width: 50%;
+}
+
+/* Submit Button */
+#submitbutton {
+    color: black;
+    background: #e0cfe8;
+    width: 50%;
+    height: 45px;
+    border-radius: 4px;
+    margin-left: 90%;
+    margin-top: 20px;
+}

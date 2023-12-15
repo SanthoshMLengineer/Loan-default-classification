@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			Styles Conference
+		</title>
+		<link rel="stylesheet" type="text/css" href="static/index.css">
+	</head>
+	<body>	
+		<h1 id="title">Loan Default Classification</h1>
+		<br>
+		<div class="results">
+			<h4 class="text-center" style="color:white;margin-left: 33%">
+				{{prediction}}
+			</h4>
+		</div>
+		<br>
+		<div id = "formregion">
+			<form action="/recognisediabetic" method="post">
+				<label id="label_gender">Gender</label>
+				<br>
+				<select name="Gender" id="Gender">
+					<option value="1">Male</option>
+				    <option value="0">Female</option>
+				</select>
+				<br>
+				<br>
+
+				<label id="label_married">Married</label>
+				<br>
+				<select name="Married" id="Married">
+					<option value="1">Yes</option>
+				    <option value="0">No</option>
+				</select>
+
+				<br>
+				<br>
+
+				<label id="label_dependents">Dependents</label>
+				<br>
+				<select name="Dependents" id="Dependents">
+					<option value="0">0</option>
+					<option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">More than 3</option>
+				</select>
+				<br>
+				<br>
+
+				<label id="label_education">Education</label>
+				<br>
+				<select name="Education" id="Education">
+					<option value="1">Graduate</option>
+				    <option value="0">Not Graduate</option>
+				</select>
+				<br>
+				<br>
+
+				<label id="label_self_employed">Self_Employed</label>
+				<br>
+				<select name="Self_Employed" id="Self_Employed">
+					<option value="1">Yes</option>
+				    <option value="0">No</option>
+				</select>
+				<br>
+				<br>
+
+				<label id="label_property_area">Property_Area</label>
+				<br>
+				<select name="Property_Area" id="Property_Area">
+					<option value="0">Rural</option>
+				    <option value="1">Semiurban</option>
+				    <option value="2">Urban</option>
+				</select>
+				<br>
+				<br>
+
+				<label id="label_credit_history">Credit_History</label>
+				<br>
+				<select name="Credit_History" id="Credit_History">
+					<option value="0">0</option>
+				    <option value="1">1</option>
+				</select>
+				<br>
+				<br>
+
+				<label id="label_total_income">Total_Income</label>
+				<br>
+				<input type="text" id="Total_Income" name="Total_Income" placeholder="Total_Income" required="">
+				<br>
+				<br>
+
+				<label id="label_loanamount">LoanAmount</label>
+				<br>
+				<input type="text" id="LoanAmount" name="LoanAmount" placeholder="LoanAmount" required="">
+				<br>
+				<br>
+
+				<label id="label_loanamount_term">Loan_Amount_Term</label>
+				<br>
+				<input type="text" id="Loan_Amount_Term" name="Loan_Amount_Term" placeholder="Loan Amount Term in months" required="">
+				<br>
+				<br>
+				<button id="submitbutton">predict</button>
+	        </form>
+	    </div>
+	</body>
+</html>
+
+						
